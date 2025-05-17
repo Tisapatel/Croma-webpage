@@ -9,9 +9,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="./Assets/images/favicon.jpg" type="image/x-icon">
 </head>
 
-<body>
+<body class="bg-black">
 
       <header>
         <nav class="navbar navbar-expand-lg bg-black p-2">
@@ -103,7 +104,12 @@
 
      <!-- mini-sliderbar -->
 
-      <section id="slider" class="bg-black py-5 ">
+      <section id="slider" class="bg-black py-5  position-relative">
+
+        <div class="container position-relative">
+          <button class="btn btn-dark btn-left" id="slideLeft">
+          <i class="bi bi-chevron-left"></i>
+          </button>
 
         <div class="container d-flex gap-3 overflow-x-scroll" id="mini-slider">
             <div class="slider-item">
@@ -167,6 +173,10 @@
             <img src="./Assets/images/mini-20.webp" alt="">
         </div> 
         </div>
+        <button class="btn btn-dark btn-right"  id="slideRight">
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
       </section>
 
       <!-- Animated-Slider -->
@@ -227,7 +237,7 @@
       </section>
 
 
-      <section class="summer-special-deals py-5 bg-dark">
+      <section class="summer-special-deals py-5">
         <div class="container">
           <h2 class="text-white mb-5">Summer Special Deals</h2>
 
@@ -323,7 +333,7 @@
         </div>
       </section>
   
-       <section class="deals-section-1 py-5 bg-dark">
+       <section class="deals-section-1 py-5 ">
         <div class="container">
           <h2 class="mb-5 text-white">Deals Of The Day</h2>
 
@@ -441,7 +451,7 @@
         </div>
       </section>
 
-      <section class="banner-section-5 py-5 bg-dark">
+      <section class="banner-section-5 py-5 ">
     <div class="container" id="croma">
       <h2 class="mb-5 text-white">Experience Croma On Tata Neu!</h2>
 
@@ -454,7 +464,21 @@
        <section class="croma-appliances py-5 bg-black">
         <div class="container">
           <h2 class="text-white mb-5">Exclusively Curated For You</h2>
-          <div class="row">
+           <img src="./Assets/images/Croma_Collections.webp" alt="Croma Collections" style="width: 150px; height: 110px;">
+  
+        
+            <img src="./Assets/images/Express.webp" alt="Croma Express" style="width: 150px; height: 110px;">
+        
+        
+            <img src="./Assets/images/EMI.webp" alt="EMI Store" style="width: 150px; height: 110px;">
+        
+            <img src="./Assets/images/deals corner.webp" alt="Deals Corner" style="width: 150px; height: 110px;">
+        
+            <img src="./Assets/images/deals of the week.webp" alt="Deals of the Week" style="width: 150px; height: 110px;">
+        
+            <img src="./Assets/images/e-waste.webp" alt="E-Waste Disposal" style="width: 150px; height: 110px;">
+
+          <div class="row mt-5">
             <div class="col-lg-6">
               <div class="appliances-item">
                 <img src="./Assets/images/2.webp" class="img-fluid rounded-3" alt="">
@@ -468,6 +492,89 @@
           </div>
         </div>
       </section>
+
+      <section class="banner-section-5 py-5">
+    <div class="container" id="croma">
+      <h2 class="mb-5 text-white">Why Croma?</h2>
+      <div class="banner-5-content d-flex">
+        <img src="./Assets/images/Why-Croma.webp" class="mx-auto w-100 img-fluid rounded-3" alt="" />
+      </div>
+      <div class="slider-2 mt-3">
+        <div class="row flex-nowrap overflow-x-scroll gx-3  " id="slider-2">
+          <div class="col-lg-2">
+            <div class="slider-2-item">
+              <img src="./Assets/images/apple.webp" class="img-fluid rounded-3" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="slider-2-item">
+              <img src="./Assets/images/bose.webp" class="img-fluid rounded-3" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="slider-2-item">
+              <img src="./Assets/images/croma.webp" class="img-fluid rounded-3" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="slider-2-item">
+              <img src="./Assets/images/dell.webp" class="img-fluid rounded-3" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="slider-2-item">
+              <img src="./Assets/images/haier.webp" class="img-fluid rounded-3" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="slider-2-item">
+              <img src="./Assets/images/hp.webp" class="img-fluid rounded-3" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="slider-2-item">
+              <img src="./Assets/images/jbl.webp" class="img-fluid rounded-3" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="slider-2-item">
+              <img src="./Assets/images/lenevo.webp" class="img-fluid rounded-3" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="slider-2-item">
+              <img src="./Assets/images/oppo.webp" class="img-fluid rounded-3" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="slider-2-item">
+              <img src="./Assets/images/philips.webp" class="img-fluid rounded-3" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="slider-2-item">
+              <img src="./Assets/images/sam.webp" class="img-fluid rounded-3" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="slider-2-item">
+              <img src="./Assets/images/sony.webp" class="img-fluid rounded-3" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="slider-2-item">
+              <img src="./Assets/images/vivo.webp" class="img-fluid rounded-3" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="slider-2-item">
+              <img src="./Assets/images/mi.webp" class="img-fluid rounded-3" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
 
 </main>
 
@@ -555,17 +662,6 @@
     </div>
   </div>
 </footer>
-
-
-     
-
-    
-    
-
-
-
-
-
 
 
 
