@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: #000000;
+}
 
 .bi-search{
     position: absolute;
@@ -16,7 +19,7 @@ form{
 }
 
 .slider-item img{
-    height: 100px !important;
+    height: 130px !important;
     
 }
 
@@ -57,6 +60,7 @@ form{
 }
 
 
+
 .img-deal{
     height: 400px;
     width: 300px;   
@@ -65,4 +69,44 @@ form{
 
 #summer-deal{
     scrollbar-width: none;
+}
+
+.icon-card {
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.icon-card img {
+    width: 100px;
+    height: 100px;
+}
+.section-title {
+    margin: 20px 0;
+    text-align: center;
+}
+#slider-2{
+    scrollbar-width: none;
+}
+
+
+
+
+.btn-dark{
+    position: absolute;
+    top: 25px;
+}
+
+.btn-left{
+    position: absolute;
+    left: -30px;
+    background:none !important;
+    border: none !important;
+}
+
+.btn-right{
+    position: absolute;
+    left: 100%;
+    background:none !important;
+    border: none !important;
 }
